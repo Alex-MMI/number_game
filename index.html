@@ -1,0 +1,33 @@
+<html>
+  <head>
+    <title>Угадай число</title>
+  </head>
+  <body>
+    <div style="
+      max-width: 300px;
+      width: 100%;
+      margin: 0 auto;"
+    >
+    <h1>Игра угадай числo</h1>
+    <p id="name"></p>
+    <span>Введите число от 1 до 10.</span>
+    <div>
+      <div>
+        <div>
+        <span id="userNameOne"></span>
+        <input type="password" id="guess_1" />
+        </div>
+        <div>
+        <span id="userNameTwo"></span>
+        <input type="password" id="guess_2" />
+      </div>
+      <div>
+        <input type="button" value="Узнать победителя" onclick="checkGuess()" />
+      </div>
+    </div>
+    <p id="win" style="max-width: 300px; width: 100%"></p>
+    <button onclick="location.reload();">Сыграть снова</button>
+    </div>
+<script src="./miniGame.js" ></script>
+  </body>
+</html>
